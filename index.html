@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm Đa phương tiện của em</title>
+    
+    <!-- Nhúng CSS để giao diện đẹp và tự động căn giữa -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #f8fafc; }
+    </style>
+</head>
+<body class="min-h-screen text-slate-800 flex flex-col items-center justify-center p-6">
+
+    <!-- KHUNG CHÍNH CHỨA NỘI DUNG (TỰ ĐỘNG CĂN GIỮA) -->
+    <main class="w-full max-w-3xl bg-white p-8 rounded-xl shadow-lg border border-slate-200 text-center">
+        
+        <h1 class="text-3xl font-bold text-indigo-600 mb-2">Báo cáo Sản phẩm Thực hành</h1>
+        <p class="text-slate-500 mb-8">Nhiệm vụ 3.1: Hiển thị Infographic và Video</p>
+
+        <!-- ================= MỤC 1: HÌNH ẢNH INFOGRAPHIC ================= -->
+        <div class="mb-10">
+            <h2 class="text-xl font-bold mb-4 text-slate-700">1. Infographic: Lợi ích Công nghệ số</h2>
+            
+            <!-- CHÚ Ý: SỬA TÊN FILE ẢNH Ở ĐÂY NẾU CẦN -->
+            <!-- Nếu file ảnh của em tên khác, hãy đổi chữ "infographic.png" thành tên của em -->
+            <img src="infographic.png" alt="Infographic của em" class="w-full h-auto rounded-lg shadow-md border border-slate-200">
+            
+            <p class="mt-2 text-sm text-slate-400 italic">Infographic tạo bởi Canva AI, hình ảnh từ Unsplash (CC0).</p>
+        </div>
+
+        <hr class="mb-10 border-slate-200">
+
+        <!-- ================= MỤC 2: TRÌNH PHÁT VIDEO MP4 ================= -->
+        <div>
+            <h2 class="text-xl font-bold mb-4 text-slate-700">2. Video Ngắn</h2>
+            
+            <div class="w-full bg-black rounded-lg shadow-md overflow-hidden flex justify-center">
+                <video controls class="w-full max-h-[500px]">
+                    
+                    <!-- CHÚ Ý: SỬA TÊN FILE VIDEO Ở ĐÂY NẾU CẦN -->
+                    <!-- Nếu file video của em tên khác, hãy đổi chữ "video.mp4" thành tên của em -->
+                    <source src="video.mp4" type="video/mp4">
+                    
+                    Trình duyệt của bạn không hỗ trợ xem video.
+                </video>
+            </div>
+
+            <p class="mt-2 text-sm text-slate-400 italic">Video tạo bởi CapCut, tài liệu từ Pexels/FreeSound (CC0).</p>
+        </div>
+
+    </main>
+
+</body>
+</html>
