@@ -14,6 +14,7 @@ Kho lưu trữ này chứa toàn bộ các minh chứng và sản phẩm của b
   * `lich_su_google_docs.png`: Minh chứng làm việc nhóm và sử dụng tính năng Suggesting/Comment.
   * `giao_dien_canva.png`: Minh chứng quá trình thao tác trên Canva AI.
   * `giao_dien_capcut.png`: Minh chứng quá trình cắt ghép video trên CapCut.
+  * `chia_se_nhom.png`: Minh chứng chia sẻ link code Github qua Microsoft Teams.
 
 ## 2. TRÍCH DẪN NGUỒN TÀI NGUYÊN VÀ ỨNG DỤNG AI ĐẠO ĐỨC
 Tuân thủ các nguyên tắc về đạo đức kỹ thuật số và tôn trọng bản quyền, toàn bộ tài liệu trong bài thực hành này được khai báo minh bạch như sau:
